@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Honolulu.xcodeproj">
+      location = "self:/Users/mobapp12/Desktop/iOS/Honolulu/NieuwpoortFare.xcodeproj">
    </FileRef>
 </Workspace>

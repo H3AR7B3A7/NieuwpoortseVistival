@@ -12,13 +12,13 @@ import MapKit
 class Stand:NSObject, MKAnnotation{
     
     var coordinate: CLLocationCoordinate2D
-    var name: String
-    var type: String
+    var title: String?
+    var cat: String?
     
-    internal init(coordinate: CLLocationCoordinate2D, name: String, type: String) {
+    init(coordinate: CLLocationCoordinate2D, name: String, cat: String) {
         self.coordinate = coordinate
-        self.name = name
-        self.type = type
+        self.title = name
+        self.cat = cat
     }
     
 }

@@ -13,13 +13,18 @@
 		0106F3C323E1878800E06F86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0106F3C123E1878800E06F86 /* Main.storyboard */; };
 		0106F3C523E1878A00E06F86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0106F3C423E1878A00E06F86 /* Assets.xcassets */; };
 		0106F3C823E1878A00E06F86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0106F3C623E1878A00E06F86 /* LaunchScreen.storyboard */; };
-		0106F3D323E18F6500E06F86 /* Nieuwpoort-3-e1540586754178.png in Resources */ = {isa = PBXBuildFile; fileRef = 0106F3D223E18F6500E06F86 /* Nieuwpoort-3-e1540586754178.png */; };
+		0106F3D323E18F6500E06F86 /* Nieuwpoort.png in Resources */ = {isa = PBXBuildFile; fileRef = 0106F3D223E18F6500E06F86 /* Nieuwpoort.png */; };
+		0176601123E1CD1800FA9705 /* stage.png in Resources */ = {isa = PBXBuildFile; fileRef = 0176601023E1CD1800FA9705 /* stage.png */; };
+		0176601423E1D4AE00FA9705 /* ehbo.png in Resources */ = {isa = PBXBuildFile; fileRef = 0176601223E1D4AE00FA9705 /* ehbo.png */; };
+		0176601523E1D4AE00FA9705 /* food.png in Resources */ = {isa = PBXBuildFile; fileRef = 0176601323E1D4AE00FA9705 /* food.png */; };
 		01A2DA9623E19AAD00BCFE61 /* Stand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A2DA9523E19AAD00BCFE61 /* Stand.swift */; };
 		01A2DA9823E19BA300BCFE61 /* StandsRepo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A2DA9723E19BA300BCFE61 /* StandsRepo.swift */; };
+		01A2DA9A23E1AC3400BCFE61 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A2DA9923E1AC3400BCFE61 /* MapViewController.swift */; };
+		01A2DA9D23E1B2B200BCFE61 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01A2DA9C23E1B2B200BCFE61 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0106F3B823E1878700E06F86 /* Honolulu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Honolulu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0106F3B823E1878700E06F86 /* NieuwpoortFare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NieuwpoortFare.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0106F3BB23E1878700E06F86 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0106F3BD23E1878700E06F86 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		0106F3BF23E1878700E06F86 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -27,9 +32,14 @@
 		0106F3C423E1878A00E06F86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0106F3C723E1878A00E06F86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0106F3C923E1878A00E06F86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0106F3D223E18F6500E06F86 /* Nieuwpoort-3-e1540586754178.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Nieuwpoort-3-e1540586754178.png"; path = "img/Nieuwpoort-3-e1540586754178.png"; sourceTree = "<group>"; };
+		0106F3D223E18F6500E06F86 /* Nieuwpoort.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Nieuwpoort.png; path = img/Nieuwpoort.png; sourceTree = "<group>"; };
+		0176601023E1CD1800FA9705 /* stage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = stage.png; path = img/stage.png; sourceTree = "<group>"; };
+		0176601223E1D4AE00FA9705 /* ehbo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ehbo.png; path = img/ehbo.png; sourceTree = "<group>"; };
+		0176601323E1D4AE00FA9705 /* food.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = food.png; path = img/food.png; sourceTree = "<group>"; };
 		01A2DA9523E19AAD00BCFE61 /* Stand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stand.swift; sourceTree = "<group>"; };
 		01A2DA9723E19BA300BCFE61 /* StandsRepo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandsRepo.swift; sourceTree = "<group>"; };
+		01A2DA9923E1AC3400BCFE61 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		01A2DA9C23E1B2B200BCFE61 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01A2DA9D23E1B2B200BCFE61 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,42 +57,55 @@
 		0106F3AF23E1878700E06F86 = {
 			isa = PBXGroup;
 			children = (
-				0106F3BA23E1878700E06F86 /* Honolulu */,
+				0106F3BA23E1878700E06F86 /* NieuwpoortFare */,
 				0106F3B923E1878700E06F86 /* Products */,
+				01A2DA9B23E1B2B100BCFE61 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		0106F3B923E1878700E06F86 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0106F3B823E1878700E06F86 /* Honolulu.app */,
+				0106F3B823E1878700E06F86 /* NieuwpoortFare.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0106F3BA23E1878700E06F86 /* Honolulu */ = {
+		0106F3BA23E1878700E06F86 /* NieuwpoortFare */ = {
 			isa = PBXGroup;
 			children = (
 				0106F3BB23E1878700E06F86 /* AppDelegate.swift */,
 				0106F3BD23E1878700E06F86 /* SceneDelegate.swift */,
 				0106F3BF23E1878700E06F86 /* ViewController.swift */,
 				0106F3C123E1878800E06F86 /* Main.storyboard */,
-				0106F3D223E18F6500E06F86 /* Nieuwpoort-3-e1540586754178.png */,
+				0106F3D223E18F6500E06F86 /* Nieuwpoort.png */,
 				0106F3C423E1878A00E06F86 /* Assets.xcassets */,
 				0106F3C623E1878A00E06F86 /* LaunchScreen.storyboard */,
 				0106F3C923E1878A00E06F86 /* Info.plist */,
 				01A2DA9523E19AAD00BCFE61 /* Stand.swift */,
 				01A2DA9723E19BA300BCFE61 /* StandsRepo.swift */,
+				01A2DA9923E1AC3400BCFE61 /* MapViewController.swift */,
+				0176601023E1CD1800FA9705 /* stage.png */,
+				0176601223E1D4AE00FA9705 /* ehbo.png */,
+				0176601323E1D4AE00FA9705 /* food.png */,
 			);
-			path = Honolulu;
+			path = NieuwpoortFare;
+			sourceTree = "<group>";
+		};
+		01A2DA9B23E1B2B100BCFE61 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				01A2DA9C23E1B2B200BCFE61 /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0106F3B723E1878700E06F86 /* Honolulu */ = {
+		0106F3B723E1878700E06F86 /* NieuwpoortFare */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0106F3CC23E1878A00E06F86 /* Build configuration list for PBXNativeTarget "Honolulu" */;
+			buildConfigurationList = 0106F3CC23E1878A00E06F86 /* Build configuration list for PBXNativeTarget "NieuwpoortFare" */;
 			buildPhases = (
 				0106F3B423E1878700E06F86 /* Sources */,
 				0106F3B523E1878700E06F86 /* Frameworks */,
@@ -91,9 +115,9 @@
 			);
 			dependencies = (
 			);
-			name = Honolulu;
+			name = NieuwpoortFare;
 			productName = Honolulu;
-			productReference = 0106F3B823E1878700E06F86 /* Honolulu.app */;
+			productReference = 0106F3B823E1878700E06F86 /* NieuwpoortFare.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -111,7 +135,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 0106F3B323E1878700E06F86 /* Build configuration list for PBXProject "Honolulu" */;
+			buildConfigurationList = 0106F3B323E1878700E06F86 /* Build configuration list for PBXProject "NieuwpoortFare" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -124,7 +148,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0106F3B723E1878700E06F86 /* Honolulu */,
+				0106F3B723E1878700E06F86 /* NieuwpoortFare */,
 			);
 		};
 /* End PBXProject section */
@@ -134,10 +158,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0106F3D323E18F6500E06F86 /* Nieuwpoort-3-e1540586754178.png in Resources */,
+				0106F3D323E18F6500E06F86 /* Nieuwpoort.png in Resources */,
 				0106F3C823E1878A00E06F86 /* LaunchScreen.storyboard in Resources */,
+				0176601123E1CD1800FA9705 /* stage.png in Resources */,
 				0106F3C523E1878A00E06F86 /* Assets.xcassets in Resources */,
+				0176601523E1D4AE00FA9705 /* food.png in Resources */,
 				0106F3C323E1878800E06F86 /* Main.storyboard in Resources */,
+				0176601423E1D4AE00FA9705 /* ehbo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,6 +176,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				01A2DA9623E19AAD00BCFE61 /* Stand.swift in Sources */,
+				01A2DA9A23E1AC3400BCFE61 /* MapViewController.swift in Sources */,
 				0106F3C023E1878700E06F86 /* ViewController.swift in Sources */,
 				01A2DA9823E19BA300BCFE61 /* StandsRepo.swift in Sources */,
 				0106F3BC23E1878700E06F86 /* AppDelegate.swift in Sources */,
@@ -297,13 +325,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Honolulu/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/NieuwpoortFare/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = be.steven.D.dog.Honolulu;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = NieuwpoortFare;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -314,13 +342,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Honolulu/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/NieuwpoortFare/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = be.steven.D.dog.Honolulu;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = NieuwpoortFare;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -329,7 +357,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0106F3B323E1878700E06F86 /* Build configuration list for PBXProject "Honolulu" */ = {
+		0106F3B323E1878700E06F86 /* Build configuration list for PBXProject "NieuwpoortFare" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0106F3CA23E1878A00E06F86 /* Debug */,
@@ -338,7 +366,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0106F3CC23E1878A00E06F86 /* Build configuration list for PBXNativeTarget "Honolulu" */ = {
+		0106F3CC23E1878A00E06F86 /* Build configuration list for PBXNativeTarget "NieuwpoortFare" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0106F3CD23E1878A00E06F86 /* Debug */,
