@@ -20,6 +20,11 @@
 		0176601723E2D8EC00FA9705 /* Act.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0176601623E2D8EC00FA9705 /* Act.swift */; };
 		0176601B23E2D9FD00FA9705 /* ActRepo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0176601A23E2D9FD00FA9705 /* ActRepo.swift */; };
 		0176601D23E2EC8300FA9705 /* ProgramViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0176601C23E2EC8300FA9705 /* ProgramViewController.swift */; };
+		0176602123E30A7600FA9705 /* AdmiralFreebee.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0176601E23E30A7600FA9705 /* AdmiralFreebee.mp3 */; };
+		0176602223E30A7600FA9705 /* Swashbuckle.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0176601F23E30A7600FA9705 /* Swashbuckle.mp3 */; };
+		0176602323E30A7600FA9705 /* ReelBigFish.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0176602023E30A7600FA9705 /* ReelBigFish.mp3 */; };
+		0176602523E3261100FA9705 /* tableHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0176602423E3261100FA9705 /* tableHeader.swift */; };
+		0176602723E3267300FA9705 /* tableHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0176602623E3267300FA9705 /* tableHeader.xib */; };
 		01A2DA9623E19AAD00BCFE61 /* Stand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A2DA9523E19AAD00BCFE61 /* Stand.swift */; };
 		01A2DA9823E19BA300BCFE61 /* StandsRepo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A2DA9723E19BA300BCFE61 /* StandsRepo.swift */; };
 		01A2DA9A23E1AC3400BCFE61 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A2DA9923E1AC3400BCFE61 /* MapViewController.swift */; };
@@ -42,6 +47,11 @@
 		0176601623E2D8EC00FA9705 /* Act.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Act.swift; sourceTree = "<group>"; };
 		0176601A23E2D9FD00FA9705 /* ActRepo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActRepo.swift; sourceTree = "<group>"; };
 		0176601C23E2EC8300FA9705 /* ProgramViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgramViewController.swift; sourceTree = "<group>"; };
+		0176601E23E30A7600FA9705 /* AdmiralFreebee.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = AdmiralFreebee.mp3; path = music/AdmiralFreebee.mp3; sourceTree = "<group>"; };
+		0176601F23E30A7600FA9705 /* Swashbuckle.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Swashbuckle.mp3; path = music/Swashbuckle.mp3; sourceTree = "<group>"; };
+		0176602023E30A7600FA9705 /* ReelBigFish.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = ReelBigFish.mp3; path = music/ReelBigFish.mp3; sourceTree = "<group>"; };
+		0176602423E3261100FA9705 /* tableHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tableHeader.swift; sourceTree = "<group>"; };
+		0176602623E3267300FA9705 /* tableHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = tableHeader.xib; sourceTree = "<group>"; };
 		01A2DA9523E19AAD00BCFE61 /* Stand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stand.swift; sourceTree = "<group>"; };
 		01A2DA9723E19BA300BCFE61 /* StandsRepo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandsRepo.swift; sourceTree = "<group>"; };
 		01A2DA9923E1AC3400BCFE61 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
@@ -63,6 +73,7 @@
 		0106F3AF23E1878700E06F86 = {
 			isa = PBXGroup;
 			children = (
+				0176602623E3267300FA9705 /* tableHeader.xib */,
 				0106F3BA23E1878700E06F86 /* NieuwpoortFare */,
 				0106F3B923E1878700E06F86 /* Products */,
 				01A2DA9B23E1B2B100BCFE61 /* Frameworks */,
@@ -84,6 +95,9 @@
 				0106F3BD23E1878700E06F86 /* SceneDelegate.swift */,
 				0106F3BF23E1878700E06F86 /* ViewController.swift */,
 				0106F3C123E1878800E06F86 /* Main.storyboard */,
+				0176601E23E30A7600FA9705 /* AdmiralFreebee.mp3 */,
+				0176602023E30A7600FA9705 /* ReelBigFish.mp3 */,
+				0176601F23E30A7600FA9705 /* Swashbuckle.mp3 */,
 				0106F3D223E18F6500E06F86 /* Nieuwpoort.png */,
 				0106F3C423E1878A00E06F86 /* Assets.xcassets */,
 				0106F3C623E1878A00E06F86 /* LaunchScreen.storyboard */,
@@ -97,6 +111,7 @@
 				0176601623E2D8EC00FA9705 /* Act.swift */,
 				0176601A23E2D9FD00FA9705 /* ActRepo.swift */,
 				0176601C23E2EC8300FA9705 /* ProgramViewController.swift */,
+				0176602423E3261100FA9705 /* tableHeader.swift */,
 			);
 			path = NieuwpoortFare;
 			sourceTree = "<group>";
@@ -167,13 +182,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0176602123E30A7600FA9705 /* AdmiralFreebee.mp3 in Resources */,
 				0106F3D323E18F6500E06F86 /* Nieuwpoort.png in Resources */,
 				0106F3C823E1878A00E06F86 /* LaunchScreen.storyboard in Resources */,
 				0176601123E1CD1800FA9705 /* stage.png in Resources */,
 				0106F3C523E1878A00E06F86 /* Assets.xcassets in Resources */,
 				0176601523E1D4AE00FA9705 /* food.png in Resources */,
+				0176602723E3267300FA9705 /* tableHeader.xib in Resources */,
 				0106F3C323E1878800E06F86 /* Main.storyboard in Resources */,
+				0176602223E30A7600FA9705 /* Swashbuckle.mp3 in Resources */,
 				0176601423E1D4AE00FA9705 /* ehbo.png in Resources */,
+				0176602323E30A7600FA9705 /* ReelBigFish.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -185,6 +204,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				01A2DA9623E19AAD00BCFE61 /* Stand.swift in Sources */,
+				0176602523E3261100FA9705 /* tableHeader.swift in Sources */,
 				0176601723E2D8EC00FA9705 /* Act.swift in Sources */,
 				01A2DA9A23E1AC3400BCFE61 /* MapViewController.swift in Sources */,
 				0106F3C023E1878700E06F86 /* ViewController.swift in Sources */,

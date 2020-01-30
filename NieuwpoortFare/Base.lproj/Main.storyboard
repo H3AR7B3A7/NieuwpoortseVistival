@@ -191,18 +191,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="fUu-wx-QRk">
-                                <rect key="frame" x="20" y="177" width="374" height="300"/>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" sectionFooterHeight="18" translatesAutoresizingMaskIntoConstraints="NO" id="fUu-wx-QRk">
+                                <rect key="frame" x="0.0" y="88" width="414" height="788"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="300" id="ZFz-SK-xk3"/>
-                                </constraints>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" textLabel="S3b-7H-dWf" detailTextLabel="H4p-My-uqe" style="IBUITableViewCellStyleValue1" id="egQ-DJ-s5g">
-                                        <rect key="frame" x="0.0" y="28" width="374" height="43.5"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="cell" textLabel="S3b-7H-dWf" detailTextLabel="H4p-My-uqe" style="IBUITableViewCellStyleValue1" id="egQ-DJ-s5g">
+                                        <rect key="frame" x="0.0" y="55.5" width="414" height="43.5"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="egQ-DJ-s5g" id="TiW-dh-NiZ">
-                                            <rect key="frame" x="0.0" y="0.0" width="374" height="43.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="S3b-7H-dWf">
@@ -213,7 +210,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Detail" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="H4p-My-uqe">
-                                                    <rect key="frame" x="310" y="12" width="44" height="20.5"/>
+                                                    <rect key="frame" x="350" y="12" width="44" height="20.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
@@ -223,26 +220,25 @@
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                 </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="stm-pG-z9b" id="PhU-Kx-Emk"/>
+                                    <outlet property="delegate" destination="stm-pG-z9b" id="wO2-VP-QTy"/>
+                                </connections>
                             </tableView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Saturday" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="upF-wp-fbe">
-                                <rect key="frame" x="20" y="120" width="123" height="82"/>
-                                <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="24"/>
-                                <color key="textColor" red="1" green="0.91623984530000002" blue="0.31951360540000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.39032784100000001" green="0.68344837430000005" blue="0.35364288090000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="yRC-EP-Znv" firstAttribute="trailing" relation="lessThanOrEqual" secondItem="upF-wp-fbe" secondAttribute="trailing" constant="271" id="SkV-XK-Yda"/>
-                            <constraint firstItem="upF-wp-fbe" firstAttribute="leading" secondItem="yRC-EP-Znv" secondAttribute="leading" constant="20" id="WOx-tT-WIx"/>
-                            <constraint firstItem="fUu-wx-QRk" firstAttribute="leading" secondItem="yRC-EP-Znv" secondAttribute="leading" constant="20" id="Y5f-qX-hDH"/>
-                            <constraint firstItem="upF-wp-fbe" firstAttribute="top" secondItem="yRC-EP-Znv" secondAttribute="top" constant="32" id="Zg2-0q-83X"/>
-                            <constraint firstItem="fUu-wx-QRk" firstAttribute="top" secondItem="upF-wp-fbe" secondAttribute="bottom" constant="-25" id="gUe-Nn-GI2"/>
-                            <constraint firstItem="yRC-EP-Znv" firstAttribute="trailing" secondItem="fUu-wx-QRk" secondAttribute="trailing" constant="20" id="gxr-0c-Rfd"/>
+                            <constraint firstItem="fUu-wx-QRk" firstAttribute="leading" secondItem="yRC-EP-Znv" secondAttribute="leading" id="1UR-Rh-Alv"/>
+                            <constraint firstItem="fUu-wx-QRk" firstAttribute="top" secondItem="yRC-EP-Znv" secondAttribute="top" id="CuU-Ue-DLQ"/>
+                            <constraint firstAttribute="bottom" secondItem="fUu-wx-QRk" secondAttribute="bottom" constant="20" symbolic="YES" id="meh-Bo-wYa"/>
+                            <constraint firstItem="fUu-wx-QRk" firstAttribute="trailing" secondItem="yRC-EP-Znv" secondAttribute="trailing" id="vVu-Sr-GUK"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="yRC-EP-Znv"/>
                     </view>
                     <navigationItem key="navigationItem" id="7Oc-b9-bej"/>
+                    <connections>
+                        <outlet property="saturdayTable" destination="fUu-wx-QRk" id="Cfs-jb-abS"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BrJ-T0-b4m" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
