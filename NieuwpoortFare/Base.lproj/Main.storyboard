@@ -258,16 +258,20 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Edh-hj-AiY">
                                 <rect key="frame" x="353" y="788" width="41" height="41"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="41" id="pGf-xx-vbt"/>
+                                    <constraint firstAttribute="width" constant="41" id="T0J-tu-PsS"/>
+                                    <constraint firstAttribute="height" constant="41" id="xIn-B0-509"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="180"/>
                                 <color key="tintColor" red="0.0" green="0.40701910619999998" blue="0.00068721489580000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button" image="speaker.3" catalog="system"/>
+                                <connections>
+                                    <action selector="pause:" destination="XEI-PD-VB1" eventType="touchUpInside" id="Bbk-sA-dof"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="za3-3q-Fyp">
                                 <rect key="frame" x="20" y="197" width="374" height="65"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="65" id="d6C-an-GQ2"/>
+                                    <constraint firstAttribute="height" constant="65" id="Oua-Rb-ROK"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="25"/>
                                 <nil key="textColor"/>
@@ -279,36 +283,37 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="2Bn-YP-PvP">
-                                <rect key="frame" x="20" y="270" width="374" height="162"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="2Bn-YP-PvP">
+                                <rect key="frame" x="20" y="270" width="374" height="336"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="162" id="RPC-o7-bAr"/>
-                                </constraints>
                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="FJD-4e-ga9" firstAttribute="leading" secondItem="za3-3q-Fyp" secondAttribute="leading" id="4xs-vi-Tch"/>
-                            <constraint firstItem="2Bn-YP-PvP" firstAttribute="trailing" secondItem="Edh-hj-AiY" secondAttribute="trailing" id="DtD-gN-3tv"/>
-                            <constraint firstItem="FJD-4e-ga9" firstAttribute="trailing" secondItem="za3-3q-Fyp" secondAttribute="trailing" id="RfM-vD-tvt"/>
-                            <constraint firstItem="Edh-hj-AiY" firstAttribute="leading" secondItem="Yas-zO-4bg" secondAttribute="leading" constant="353" id="ayU-6d-ev6"/>
-                            <constraint firstItem="FJD-4e-ga9" firstAttribute="leading" secondItem="f4c-Vf-Cih" secondAttribute="leadingMargin" id="gqR-iK-eEV"/>
-                            <constraint firstItem="FJD-4e-ga9" firstAttribute="trailing" secondItem="f4c-Vf-Cih" secondAttribute="trailingMargin" id="hlS-UB-mKm"/>
-                            <constraint firstItem="FJD-4e-ga9" firstAttribute="top" secondItem="Yas-zO-4bg" secondAttribute="top" constant="50" id="iW6-zf-n5e"/>
-                            <constraint firstItem="2Bn-YP-PvP" firstAttribute="top" secondItem="za3-3q-Fyp" secondAttribute="bottom" constant="8" id="ihR-Zc-Lx7"/>
-                            <constraint firstItem="za3-3q-Fyp" firstAttribute="leading" secondItem="2Bn-YP-PvP" secondAttribute="leading" id="omy-rt-guK"/>
-                            <constraint firstItem="za3-3q-Fyp" firstAttribute="top" secondItem="FJD-4e-ga9" secondAttribute="bottom" constant="8" id="paB-pn-it4"/>
-                            <constraint firstItem="za3-3q-Fyp" firstAttribute="trailing" secondItem="2Bn-YP-PvP" secondAttribute="trailing" id="wph-wM-v3e"/>
-                            <constraint firstItem="Yas-zO-4bg" firstAttribute="bottom" secondItem="Edh-hj-AiY" secondAttribute="bottom" constant="33" id="wtz-dA-Miv"/>
+                            <constraint firstItem="za3-3q-Fyp" firstAttribute="trailing" secondItem="2Bn-YP-PvP" secondAttribute="trailing" id="BIr-nu-Z7s"/>
+                            <constraint firstItem="za3-3q-Fyp" firstAttribute="leading" secondItem="2Bn-YP-PvP" secondAttribute="leading" id="EKu-hE-eWJ"/>
+                            <constraint firstItem="FJD-4e-ga9" firstAttribute="trailing" secondItem="f4c-Vf-Cih" secondAttribute="trailingMargin" id="JsH-IW-qNl"/>
+                            <constraint firstItem="za3-3q-Fyp" firstAttribute="top" secondItem="FJD-4e-ga9" secondAttribute="bottom" constant="8" id="Saa-zA-fQJ"/>
+                            <constraint firstItem="Edh-hj-AiY" firstAttribute="trailing" secondItem="2Bn-YP-PvP" secondAttribute="trailing" id="Tox-6F-2B9"/>
+                            <constraint firstItem="FJD-4e-ga9" firstAttribute="trailing" secondItem="za3-3q-Fyp" secondAttribute="trailing" id="XfN-tu-nKL"/>
+                            <constraint firstItem="FJD-4e-ga9" firstAttribute="leading" secondItem="f4c-Vf-Cih" secondAttribute="leadingMargin" id="YLk-3u-AR4"/>
+                            <constraint firstItem="2Bn-YP-PvP" firstAttribute="top" secondItem="za3-3q-Fyp" secondAttribute="bottom" constant="8" id="ZP3-oC-fYc"/>
+                            <constraint firstItem="Yas-zO-4bg" firstAttribute="bottom" secondItem="Edh-hj-AiY" secondAttribute="bottom" constant="33" id="bjI-Bn-FdW"/>
+                            <constraint firstItem="FJD-4e-ga9" firstAttribute="top" secondItem="Yas-zO-4bg" secondAttribute="top" constant="50" id="tlZ-Wn-zgH"/>
+                            <constraint firstItem="FJD-4e-ga9" firstAttribute="leading" secondItem="za3-3q-Fyp" secondAttribute="leading" id="zbb-CF-CwQ"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Yas-zO-4bg"/>
                     </view>
                     <navigationItem key="navigationItem" id="nQb-Pn-ONY"/>
+                    <connections>
+                        <outlet property="AboutTV" destination="2Bn-YP-PvP" id="aoS-C3-miN"/>
+                        <outlet property="ArtistLbl" destination="FJD-4e-ga9" id="vtJ-i5-yRf"/>
+                        <outlet property="SubScriptLbl" destination="za3-3q-Fyp" id="XKK-RP-ReC"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GPD-dR-HKj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

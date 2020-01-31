@@ -93,6 +93,16 @@ class ProgramViewController: UIViewController, UITableViewDataSource, UITableVie
         return 50.0
     }
 
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let cell = sender as! UITableViewCell
+        let index = saturdayTable.indexPath(for: cell)!
+        let act = items![index.section][index.row]
+        
+        let destination = segue.destination as! DetailViewController
+        
+        destination.act = act
+        //destination.passedMp3 = act.mp3
+    }
 }
 
 
