@@ -13,7 +13,6 @@
 		0106F3C323E1878800E06F86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0106F3C123E1878800E06F86 /* Main.storyboard */; };
 		0106F3C523E1878A00E06F86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0106F3C423E1878A00E06F86 /* Assets.xcassets */; };
 		0106F3C823E1878A00E06F86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0106F3C623E1878A00E06F86 /* LaunchScreen.storyboard */; };
-		0106F3D323E18F6500E06F86 /* Nieuwpoort.png in Resources */ = {isa = PBXBuildFile; fileRef = 0106F3D223E18F6500E06F86 /* Nieuwpoort.png */; };
 		0176601123E1CD1800FA9705 /* stage.png in Resources */ = {isa = PBXBuildFile; fileRef = 0176601023E1CD1800FA9705 /* stage.png */; };
 		0176601423E1D4AE00FA9705 /* ehbo.png in Resources */ = {isa = PBXBuildFile; fileRef = 0176601223E1D4AE00FA9705 /* ehbo.png */; };
 		0176601523E1D4AE00FA9705 /* food.png in Resources */ = {isa = PBXBuildFile; fileRef = 0176601323E1D4AE00FA9705 /* food.png */; };
@@ -37,6 +36,9 @@
 		0176603F23E45AA700FA9705 /* experimental.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0176603B23E45AA700FA9705 /* experimental.mp3 */; };
 		0176604023E45AA700FA9705 /* acapella.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0176603C23E45AA700FA9705 /* acapella.mp3 */; };
 		0176604123E45AA700FA9705 /* karaoke.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0176603D23E45AA700FA9705 /* karaoke.mp3 */; };
+		0176604C23E4606300FA9705 /* shrimplogo1.png in Resources */ = {isa = PBXBuildFile; fileRef = 0176604A23E4606200FA9705 /* shrimplogo1.png */; };
+		0176604D23E4606300FA9705 /* shrimplogo2.png in Resources */ = {isa = PBXBuildFile; fileRef = 0176604B23E4606200FA9705 /* shrimplogo2.png */; };
+		0176604F23E4655100FA9705 /* launchscreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 0176604E23E4655100FA9705 /* launchscreen.png */; };
 		01A2DA9623E19AAD00BCFE61 /* Stand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A2DA9523E19AAD00BCFE61 /* Stand.swift */; };
 		01A2DA9823E19BA300BCFE61 /* StandsRepo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A2DA9723E19BA300BCFE61 /* StandsRepo.swift */; };
 		01A2DA9A23E1AC3400BCFE61 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A2DA9923E1AC3400BCFE61 /* MapViewController.swift */; };
@@ -52,7 +54,6 @@
 		0106F3C423E1878A00E06F86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0106F3C723E1878A00E06F86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0106F3C923E1878A00E06F86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0106F3D223E18F6500E06F86 /* Nieuwpoort.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Nieuwpoort.png; path = img/Nieuwpoort.png; sourceTree = "<group>"; };
 		0176601023E1CD1800FA9705 /* stage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = stage.png; path = img/stage.png; sourceTree = "<group>"; };
 		0176601223E1D4AE00FA9705 /* ehbo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ehbo.png; path = img/ehbo.png; sourceTree = "<group>"; };
 		0176601323E1D4AE00FA9705 /* food.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = food.png; path = img/food.png; sourceTree = "<group>"; };
@@ -78,6 +79,9 @@
 		0176603B23E45AA700FA9705 /* experimental.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = experimental.mp3; sourceTree = "<group>"; };
 		0176603C23E45AA700FA9705 /* acapella.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = acapella.mp3; sourceTree = "<group>"; };
 		0176603D23E45AA700FA9705 /* karaoke.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = karaoke.mp3; sourceTree = "<group>"; };
+		0176604A23E4606200FA9705 /* shrimplogo1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shrimplogo1.png; sourceTree = "<group>"; };
+		0176604B23E4606200FA9705 /* shrimplogo2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shrimplogo2.png; sourceTree = "<group>"; };
+		0176604E23E4655100FA9705 /* launchscreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launchscreen.png; sourceTree = "<group>"; };
 		01A2DA9523E19AAD00BCFE61 /* Stand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stand.swift; sourceTree = "<group>"; };
 		01A2DA9723E19BA300BCFE61 /* StandsRepo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandsRepo.swift; sourceTree = "<group>"; };
 		01A2DA9923E1AC3400BCFE61 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
@@ -117,12 +121,15 @@
 			isa = PBXGroup;
 			children = (
 				0106F3BB23E1878700E06F86 /* AppDelegate.swift */,
+				0176604E23E4655100FA9705 /* launchscreen.png */,
 				0176602F23E443CB00FA9705 /* nieuwpoort1.jpg */,
 				0176603023E443CB00FA9705 /* nieuwpoort2.jpg */,
 				0176602E23E443CA00FA9705 /* nieuwpoort3.jpg */,
 				0176603523E4585D00FA9705 /* nieuwpoort4.jpg */,
 				0176603423E4585C00FA9705 /* nieuwpoort5.jpg */,
 				0176603623E4585D00FA9705 /* nieuwpoort6.jpeg */,
+				0176604A23E4606200FA9705 /* shrimplogo1.png */,
+				0176604B23E4606200FA9705 /* shrimplogo2.png */,
 				0176602A23E43CA600FA9705 /* iCarousel.h */,
 				0176602923E43CA500FA9705 /* iCarousel.m */,
 				0106F3BD23E1878700E06F86 /* SceneDelegate.swift */,
@@ -135,7 +142,6 @@
 				0176603B23E45AA700FA9705 /* experimental.mp3 */,
 				0176603D23E45AA700FA9705 /* karaoke.mp3 */,
 				0176603A23E45AA300FA9705 /* panflutes.mp3 */,
-				0106F3D223E18F6500E06F86 /* Nieuwpoort.png */,
 				0106F3C423E1878A00E06F86 /* Assets.xcassets */,
 				0106F3C623E1878A00E06F86 /* LaunchScreen.storyboard */,
 				0106F3C923E1878A00E06F86 /* Info.plist */,
@@ -225,20 +231,22 @@
 			files = (
 				0176603723E4585D00FA9705 /* nieuwpoort5.jpg in Resources */,
 				0176602123E30A7600FA9705 /* AdmiralFreebee.mp3 in Resources */,
-				0106F3D323E18F6500E06F86 /* Nieuwpoort.png in Resources */,
 				0176603323E443CB00FA9705 /* nieuwpoort2.jpg in Resources */,
+				0176604C23E4606300FA9705 /* shrimplogo1.png in Resources */,
 				0106F3C823E1878A00E06F86 /* LaunchScreen.storyboard in Resources */,
 				0176604023E45AA700FA9705 /* acapella.mp3 in Resources */,
 				0176603223E443CB00FA9705 /* nieuwpoort1.jpg in Resources */,
 				0176601123E1CD1800FA9705 /* stage.png in Resources */,
 				0106F3C523E1878A00E06F86 /* Assets.xcassets in Resources */,
 				0176601523E1D4AE00FA9705 /* food.png in Resources */,
+				0176604F23E4655100FA9705 /* launchscreen.png in Resources */,
 				0176602723E3267300FA9705 /* tableHeader.xib in Resources */,
 				0176603F23E45AA700FA9705 /* experimental.mp3 in Resources */,
 				0106F3C323E1878800E06F86 /* Main.storyboard in Resources */,
 				0176603923E4585D00FA9705 /* nieuwpoort6.jpeg in Resources */,
 				0176602223E30A7600FA9705 /* Swashbuckle.mp3 in Resources */,
 				0176603123E443CB00FA9705 /* nieuwpoort3.jpg in Resources */,
+				0176604D23E4606300FA9705 /* shrimplogo2.png in Resources */,
 				0176601423E1D4AE00FA9705 /* ehbo.png in Resources */,
 				0176603823E4585D00FA9705 /* nieuwpoort4.jpg in Resources */,
 				0176602323E30A7600FA9705 /* ReelBigFish.mp3 in Resources */,

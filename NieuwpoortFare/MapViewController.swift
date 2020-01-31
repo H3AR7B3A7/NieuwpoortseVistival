@@ -104,7 +104,7 @@ extension MapViewController :MKMapViewDelegate{
     }
     
     func mapView(_ mapView: MKMapView, didUpdate userLocation: MKUserLocation) {
-        let visibleRegion = MKCoordinateRegion.init(center: userLocation.coordinate, latitudinalMeters: 250, longitudinalMeters: 250)
+        let visibleRegion = MKCoordinateRegion.init(center: userLocation.coordinate, latitudinalMeters: 1000, longitudinalMeters: 1000)
         mapView.region = visibleRegion
     }
 }
