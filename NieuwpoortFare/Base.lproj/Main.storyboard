@@ -7,6 +7,41 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
+        <!--Data Source-->
+        <scene sceneID="ozw-rd-nlJ">
+            <objects>
+                <viewController title="Carousel" id="lnS-07-exo" customClass="CarouselViewController" customModule="NieuwpoortFare" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="sKR-4D-AgP">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="44x-Js-n0F" customClass="iCarousel">
+                                <rect key="frame" x="0.0" y="88" width="414" height="808"/>
+                                <color key="backgroundColor" red="0.39032784100000001" green="0.68344837430000005" blue="0.35364288090000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="lnS-07-exo" id="rce-gG-mNE"/>
+                                    <outlet property="delegate" destination="lnS-07-exo" id="aNy-6I-sJh"/>
+                                </connections>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="44x-Js-n0F" firstAttribute="leading" secondItem="dFn-Me-dlY" secondAttribute="leading" id="8cG-5q-mnK"/>
+                            <constraint firstItem="44x-Js-n0F" firstAttribute="top" secondItem="dFn-Me-dlY" secondAttribute="top" id="ShI-VV-bwE"/>
+                            <constraint firstAttribute="bottom" secondItem="44x-Js-n0F" secondAttribute="bottom" id="fLm-OS-y5E"/>
+                            <constraint firstItem="44x-Js-n0F" firstAttribute="trailing" secondItem="dFn-Me-dlY" secondAttribute="trailing" id="ffx-OE-MnI"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="dFn-Me-dlY"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="jVv-18-Q89"/>
+                    <connections>
+                        <outlet property="iCarouselView" destination="44x-Js-n0F" id="HHh-Om-psH"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sDE-zR-ROE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1057.9710144927537" y="-514.28571428571422"/>
+        </scene>
         <!--Nieuwpoorts Vistival-->
         <scene sceneID="tne-QT-ifu">
             <objects>
@@ -57,19 +92,35 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Nieuwpoort.png" translatesAutoresizingMaskIntoConstraints="NO" id="9KP-4f-AQG">
                                 <rect key="frame" x="0.0" y="88" width="414" height="416"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JGx-uz-7HB">
+                                <rect key="frame" x="0.0" y="745" width="414" height="49"/>
+                                <color key="backgroundColor" red="0.56904387469999995" green="0.72303968669999996" blue="0.303489536" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="49" id="IkD-o0-Ubl"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Copperplate-Bold" family="Copperplate" pointSize="27"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="PICTURES"/>
+                                <connections>
+                                    <segue destination="lnS-07-exo" kind="show" id="XIq-yh-v9a"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.40867335776020397" green="0.6726441062176165" blue="0.381929034679243" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="rM2-dA-dqn" firstAttribute="leading" secondItem="1wR-IB-jUe" secondAttribute="leading" id="3uL-E7-zvp"/>
                             <constraint firstItem="9KP-4f-AQG" firstAttribute="trailing" secondItem="cJH-FZ-5AF" secondAttribute="trailing" id="6tD-60-6ci"/>
                             <constraint firstItem="9KP-4f-AQG" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="9lc-sq-2ks"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="JGx-uz-7HB" secondAttribute="bottom" constant="68" id="9qm-On-cRh"/>
                             <constraint firstItem="cJH-FZ-5AF" firstAttribute="trailing" secondItem="rM2-dA-dqn" secondAttribute="trailing" id="HCX-kb-KgS"/>
+                            <constraint firstItem="JGx-uz-7HB" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="JGJ-Yb-KEh"/>
+                            <constraint firstItem="JGx-uz-7HB" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="SWh-ec-k8o"/>
                             <constraint firstItem="9KP-4f-AQG" firstAttribute="leading" secondItem="cJH-FZ-5AF" secondAttribute="leading" id="VoC-M5-zMw"/>
                             <constraint firstItem="rM2-dA-dqn" firstAttribute="trailing" secondItem="1wR-IB-jUe" secondAttribute="trailing" id="ZLr-hu-2Pg"/>
                             <constraint firstItem="cJH-FZ-5AF" firstAttribute="leading" secondItem="rM2-dA-dqn" secondAttribute="leading" id="bGB-mh-TMU"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="1wR-IB-jUe" secondAttribute="bottom" constant="136" id="g9E-2c-NCX"/>
                             <constraint firstItem="1wR-IB-jUe" firstAttribute="top" secondItem="rM2-dA-dqn" secondAttribute="bottom" constant="16" id="h7g-F6-F2s"/>
                             <constraint firstItem="rM2-dA-dqn" firstAttribute="top" secondItem="cJH-FZ-5AF" secondAttribute="bottom" constant="17" id="h8t-eI-SoQ"/>
+                            <constraint firstItem="JGx-uz-7HB" firstAttribute="top" secondItem="1wR-IB-jUe" secondAttribute="bottom" constant="19" id="ii4-h4-JmH"/>
                             <constraint firstItem="9KP-4f-AQG" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="oGd-L6-xIT"/>
                             <constraint firstItem="cJH-FZ-5AF" firstAttribute="top" secondItem="9KP-4f-AQG" secondAttribute="bottom" constant="42" id="oKF-qq-G3I"/>
                             <constraint firstAttribute="trailing" secondItem="9KP-4f-AQG" secondAttribute="trailing" id="uje-CW-fzw"/>
@@ -283,9 +334,12 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="2Bn-YP-PvP">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="2Bn-YP-PvP">
                                 <rect key="frame" x="20" y="270" width="374" height="336"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="336" id="JTy-fs-POr"/>
+                                </constraints>
                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>

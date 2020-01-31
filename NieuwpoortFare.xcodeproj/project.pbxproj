@@ -25,6 +25,18 @@
 		0176602323E30A7600FA9705 /* ReelBigFish.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0176602023E30A7600FA9705 /* ReelBigFish.mp3 */; };
 		0176602523E3261100FA9705 /* tableHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0176602423E3261100FA9705 /* tableHeader.swift */; };
 		0176602723E3267300FA9705 /* tableHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0176602623E3267300FA9705 /* tableHeader.xib */; };
+		0176602B23E43CA600FA9705 /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0176602923E43CA500FA9705 /* iCarousel.m */; };
+		0176602D23E43E5F00FA9705 /* CarouselViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0176602C23E43E5F00FA9705 /* CarouselViewController.swift */; };
+		0176603123E443CB00FA9705 /* nieuwpoort3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0176602E23E443CA00FA9705 /* nieuwpoort3.jpg */; };
+		0176603223E443CB00FA9705 /* nieuwpoort1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0176602F23E443CB00FA9705 /* nieuwpoort1.jpg */; };
+		0176603323E443CB00FA9705 /* nieuwpoort2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0176603023E443CB00FA9705 /* nieuwpoort2.jpg */; };
+		0176603723E4585D00FA9705 /* nieuwpoort5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0176603423E4585C00FA9705 /* nieuwpoort5.jpg */; };
+		0176603823E4585D00FA9705 /* nieuwpoort4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0176603523E4585D00FA9705 /* nieuwpoort4.jpg */; };
+		0176603923E4585D00FA9705 /* nieuwpoort6.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0176603623E4585D00FA9705 /* nieuwpoort6.jpeg */; };
+		0176603E23E45AA700FA9705 /* panflutes.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0176603A23E45AA300FA9705 /* panflutes.mp3 */; };
+		0176603F23E45AA700FA9705 /* experimental.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0176603B23E45AA700FA9705 /* experimental.mp3 */; };
+		0176604023E45AA700FA9705 /* acapella.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0176603C23E45AA700FA9705 /* acapella.mp3 */; };
+		0176604123E45AA700FA9705 /* karaoke.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0176603D23E45AA700FA9705 /* karaoke.mp3 */; };
 		01A2DA9623E19AAD00BCFE61 /* Stand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A2DA9523E19AAD00BCFE61 /* Stand.swift */; };
 		01A2DA9823E19BA300BCFE61 /* StandsRepo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A2DA9723E19BA300BCFE61 /* StandsRepo.swift */; };
 		01A2DA9A23E1AC3400BCFE61 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A2DA9923E1AC3400BCFE61 /* MapViewController.swift */; };
@@ -52,6 +64,20 @@
 		0176602023E30A7600FA9705 /* ReelBigFish.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = ReelBigFish.mp3; path = music/ReelBigFish.mp3; sourceTree = "<group>"; };
 		0176602423E3261100FA9705 /* tableHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tableHeader.swift; sourceTree = "<group>"; };
 		0176602623E3267300FA9705 /* tableHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = tableHeader.xib; sourceTree = "<group>"; };
+		0176602823E43CA100FA9705 /* NieuwpoortFare-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NieuwpoortFare-Bridging-Header.h"; sourceTree = "<group>"; };
+		0176602923E43CA500FA9705 /* iCarousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCarousel.m; sourceTree = "<group>"; };
+		0176602A23E43CA600FA9705 /* iCarousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCarousel.h; sourceTree = "<group>"; };
+		0176602C23E43E5F00FA9705 /* CarouselViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselViewController.swift; sourceTree = "<group>"; };
+		0176602E23E443CA00FA9705 /* nieuwpoort3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nieuwpoort3.jpg; sourceTree = "<group>"; };
+		0176602F23E443CB00FA9705 /* nieuwpoort1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nieuwpoort1.jpg; sourceTree = "<group>"; };
+		0176603023E443CB00FA9705 /* nieuwpoort2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nieuwpoort2.jpg; sourceTree = "<group>"; };
+		0176603423E4585C00FA9705 /* nieuwpoort5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nieuwpoort5.jpg; sourceTree = "<group>"; };
+		0176603523E4585D00FA9705 /* nieuwpoort4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nieuwpoort4.jpg; sourceTree = "<group>"; };
+		0176603623E4585D00FA9705 /* nieuwpoort6.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nieuwpoort6.jpeg; sourceTree = "<group>"; };
+		0176603A23E45AA300FA9705 /* panflutes.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = panflutes.mp3; sourceTree = "<group>"; };
+		0176603B23E45AA700FA9705 /* experimental.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = experimental.mp3; sourceTree = "<group>"; };
+		0176603C23E45AA700FA9705 /* acapella.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = acapella.mp3; sourceTree = "<group>"; };
+		0176603D23E45AA700FA9705 /* karaoke.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = karaoke.mp3; sourceTree = "<group>"; };
 		01A2DA9523E19AAD00BCFE61 /* Stand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stand.swift; sourceTree = "<group>"; };
 		01A2DA9723E19BA300BCFE61 /* StandsRepo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandsRepo.swift; sourceTree = "<group>"; };
 		01A2DA9923E1AC3400BCFE61 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
@@ -91,12 +117,24 @@
 			isa = PBXGroup;
 			children = (
 				0106F3BB23E1878700E06F86 /* AppDelegate.swift */,
+				0176602F23E443CB00FA9705 /* nieuwpoort1.jpg */,
+				0176603023E443CB00FA9705 /* nieuwpoort2.jpg */,
+				0176602E23E443CA00FA9705 /* nieuwpoort3.jpg */,
+				0176603523E4585D00FA9705 /* nieuwpoort4.jpg */,
+				0176603423E4585C00FA9705 /* nieuwpoort5.jpg */,
+				0176603623E4585D00FA9705 /* nieuwpoort6.jpeg */,
+				0176602A23E43CA600FA9705 /* iCarousel.h */,
+				0176602923E43CA500FA9705 /* iCarousel.m */,
 				0106F3BD23E1878700E06F86 /* SceneDelegate.swift */,
 				0106F3C123E1878800E06F86 /* Main.storyboard */,
 				0176602623E3267300FA9705 /* tableHeader.xib */,
 				0176601E23E30A7600FA9705 /* AdmiralFreebee.mp3 */,
 				0176602023E30A7600FA9705 /* ReelBigFish.mp3 */,
 				0176601F23E30A7600FA9705 /* Swashbuckle.mp3 */,
+				0176603C23E45AA700FA9705 /* acapella.mp3 */,
+				0176603B23E45AA700FA9705 /* experimental.mp3 */,
+				0176603D23E45AA700FA9705 /* karaoke.mp3 */,
+				0176603A23E45AA300FA9705 /* panflutes.mp3 */,
 				0106F3D223E18F6500E06F86 /* Nieuwpoort.png */,
 				0106F3C423E1878A00E06F86 /* Assets.xcassets */,
 				0106F3C623E1878A00E06F86 /* LaunchScreen.storyboard */,
@@ -112,6 +150,8 @@
 				0176601C23E2EC8300FA9705 /* ProgramViewController.swift */,
 				0176602423E3261100FA9705 /* tableHeader.swift */,
 				0106F3BF23E1878700E06F86 /* DetailViewController.swift */,
+				0176602823E43CA100FA9705 /* NieuwpoortFare-Bridging-Header.h */,
+				0176602C23E43E5F00FA9705 /* CarouselViewController.swift */,
 			);
 			path = NieuwpoortFare;
 			sourceTree = "<group>";
@@ -156,6 +196,7 @@
 				TargetAttributes = {
 					0106F3B723E1878700E06F86 = {
 						CreatedOnToolsVersion = 11.3;
+						LastSwiftMigration = 1130;
 					};
 				};
 			};
@@ -182,17 +223,27 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0176603723E4585D00FA9705 /* nieuwpoort5.jpg in Resources */,
 				0176602123E30A7600FA9705 /* AdmiralFreebee.mp3 in Resources */,
 				0106F3D323E18F6500E06F86 /* Nieuwpoort.png in Resources */,
+				0176603323E443CB00FA9705 /* nieuwpoort2.jpg in Resources */,
 				0106F3C823E1878A00E06F86 /* LaunchScreen.storyboard in Resources */,
+				0176604023E45AA700FA9705 /* acapella.mp3 in Resources */,
+				0176603223E443CB00FA9705 /* nieuwpoort1.jpg in Resources */,
 				0176601123E1CD1800FA9705 /* stage.png in Resources */,
 				0106F3C523E1878A00E06F86 /* Assets.xcassets in Resources */,
 				0176601523E1D4AE00FA9705 /* food.png in Resources */,
 				0176602723E3267300FA9705 /* tableHeader.xib in Resources */,
+				0176603F23E45AA700FA9705 /* experimental.mp3 in Resources */,
 				0106F3C323E1878800E06F86 /* Main.storyboard in Resources */,
+				0176603923E4585D00FA9705 /* nieuwpoort6.jpeg in Resources */,
 				0176602223E30A7600FA9705 /* Swashbuckle.mp3 in Resources */,
+				0176603123E443CB00FA9705 /* nieuwpoort3.jpg in Resources */,
 				0176601423E1D4AE00FA9705 /* ehbo.png in Resources */,
+				0176603823E4585D00FA9705 /* nieuwpoort4.jpg in Resources */,
 				0176602323E30A7600FA9705 /* ReelBigFish.mp3 in Resources */,
+				0176604123E45AA700FA9705 /* karaoke.mp3 in Resources */,
+				0176603E23E45AA700FA9705 /* panflutes.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,6 +258,8 @@
 				0176602523E3261100FA9705 /* tableHeader.swift in Sources */,
 				0176601723E2D8EC00FA9705 /* Act.swift in Sources */,
 				01A2DA9A23E1AC3400BCFE61 /* MapViewController.swift in Sources */,
+				0176602D23E43E5F00FA9705 /* CarouselViewController.swift in Sources */,
+				0176602B23E43CA600FA9705 /* iCarousel.m in Sources */,
 				0106F3C023E1878700E06F86 /* DetailViewController.swift in Sources */,
 				01A2DA9823E19BA300BCFE61 /* StandsRepo.swift in Sources */,
 				0106F3BC23E1878700E06F86 /* AppDelegate.swift in Sources */,
@@ -356,6 +409,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "$(SRCROOT)/NieuwpoortFare/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -364,6 +418,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = be.steven.D.dog.Honolulu;
 				PRODUCT_NAME = NieuwpoortFare;
+				SWIFT_OBJC_BRIDGING_HEADER = "NieuwpoortFare/NieuwpoortFare-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -373,6 +429,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "$(SRCROOT)/NieuwpoortFare/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -381,6 +438,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = be.steven.D.dog.Honolulu;
 				PRODUCT_NAME = NieuwpoortFare;
+				SWIFT_OBJC_BRIDGING_HEADER = "NieuwpoortFare/NieuwpoortFare-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
