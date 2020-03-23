@@ -12,3 +12,10 @@ We had about 3 days to present the results.
 This was an early introduction to Swift in xCode and in no way represents what a real commercial app should look like.
 
 Special thanks to: Swasse
+
+## License & copyright
+
+© H3AR7B3A7<br>
+Department Design & Technologie of the Erasmus Highschool in Brussels
+
+Licensed under the [Apache license](LICENSE).
